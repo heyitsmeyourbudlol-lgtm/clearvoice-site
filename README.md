@@ -1,31 +1,14 @@
 # ClearVoice site
 
-Public GitHub Pages marketing site for **ClearVoice** (local-first voice dictation).
+Public GitHub Pages landing for **ClearVoice** (local-first voice dictation).
 
-Mirrored to **[clearvoice-site](https://github.com/heyitsmeyourbudlol-lgtm/clearvoice-site)** for Pages.
+**Live:** https://heyitsmeyourbudlol-lgtm.github.io/clearvoice-site/
 
-- Ads, affiliate links, donation CTAs, digital goodies, and email capture live **only** here — not in the Electron desktop app.
-- Replace all `PLACEHOLDER` strings (Sponsors, Ko-fi, BMC, PayPal, AdSense, Gumroad / Lemon Squeezy / Stripe Payment Links, ESP form actions, affiliate tags) before going live with real accounts.
+Mirrored from `website/` in the ClearVoice desktop app repo. Monetization ops: [MONETIZATION.md](./MONETIZATION.md).
 
-## Local preview
-
-Open `index.html` in a browser, or:
+- Ads / tips / packs / email capture: **website only** — never inside the Electron app.
+- Pro waitlist: [Discussions #1](https://github.com/heyitsmeyourbudlol-lgtm/clearvoice-site/discussions/1)
 
 ```bash
-python3 -m http.server 8080 --directory .
+python3 -m http.server 8765 --directory .
 ```
-
-## Sections
-
-| Section | Purpose |
-|---------|---------|
-| `#upgrade` | Free → Pro / Pro Max narrative + annual savings + Pro waitlist |
-| `#goodies` | Paid digital packs (dictionaries, snippets, styles, templates, starter kit, themes) |
-| `#guide` | Lead magnet (power-user checklist) → newsletter nurture |
-| `#retain` | Gift licenses, Teams tease, referral credit tease |
-| `#support` / `#monetize` | Tip jar, affiliates, paid support, feature sponsorship |
-| Ad slots + `ads.txt` | Website-only AdSense placeholders |
-
-## Monetization placeholders
-
-See live page links and product docs in the app repo (`PRICING.md` → Website monetization stack).

@@ -1,4 +1,8 @@
-# ads.txt stub for ClearVoice marketing site
-# Replace PLACEHOLDER_PUBLISHER_ID with your Google AdSense publisher ID (pub-XXXXXXXXXXXXXXXX)
+# ads.txt for ClearVoice marketing site (GitHub Pages only)
+# AdSense is intentionally inactive — do not publish a fake publisher ID.
+#
+# # TODO AdSense: after you have a real publisher ID, add exactly one line:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
 # See: https://support.google.com/adsense/answer/7532444
-google.com, pub-PLACEHOLDER_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
+# Ops: MONETIZATION.md in the ClearVoice app repo
