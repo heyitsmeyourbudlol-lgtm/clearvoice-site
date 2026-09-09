@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+__pycache__/
+*.pyc
+.venv/
+automation.config.local.json
+*.pem
+credentials.json
+secrets/
+.cursor/
+.worktrees/
